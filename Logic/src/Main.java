@@ -18,30 +18,24 @@ public class Main {
 		String day = "Mondary";
 		
 		switch(day.toLowerCase()) {
-		case "sunday":{
+		case "sunday":
 			System.out.println("It is Sunday");
 			break;
-		}
-		case "monday":{
+		case "monday":
 			System.out.println("It is Monday");
 			break;
-		}
-		case "tuesday":{
+		case "tuesday":
 			System.out.println("It is Tuesday");
 			break;
-		}
-		case "wednesday":{
+		case "wednesday":
 			System.out.println("It is Wednesday");
 			break;
-		}
-		case "friday":{
+		case "friday":
 			System.out.println("It is Friday");
 			break;
-		}
-		case "saturday":{
+		case "saturday":
 			System.out.println("It is saturday");
 			break;
-		}
 		default:
 			System.out.println("There is no such day in a week");
 		}
