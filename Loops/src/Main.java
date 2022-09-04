@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -6,6 +7,22 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		Scanner scanner = new Scanner(System.in);
+		
+		// for-each is traversing technique to iterate through the elements in an array/collection
+		// less steps, more readable
+		// less flexible
+		
+		//String[] animals = {"cat", "dog", "rat", "bird"};
+		ArrayList<String> animals = new ArrayList<String>();
+		
+		animals.add("cat");
+		animals.add("dog");
+		animals.add("rat");
+		animals.add("bird");
+		
+		for(String i : animals) {
+			System.out.println(i);
+		}
 		
 		for(int i = 0; i <= 10; i++) {
 			int j = 0;
